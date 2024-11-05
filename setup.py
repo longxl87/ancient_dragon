@@ -1,13 +1,15 @@
 from setuptools import setup, find_packages
 
+requires = ['numpy','pandas']
+
 setup(
     name="ancient_dragon",
-    version="0.1.0",
+    version="0.0.1",
     author="longxl87",
     author_email="331942615@qq.com",
     description="data mining tools",
-    long_description=open('README.md').read(),
-    long_description_content_type='text/markdown',
+    # long_description=open('README.md').read(),
+    # long_description_content_type='text/markdown',
     packages=find_packages(),
     # install_requires=[
     #      "numpy>=1.26.4",

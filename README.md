@@ -1,6 +1,6 @@
 # ancient_dragon
 安装方式
 
-pip install .
+pip uninstall ancient_dragon
 
-pip install 
+pip install ancient_dragon git+https://github.com/longxl87/ancient_dragon.git
