@@ -1,7 +1,12 @@
-from setuptools import setup
-from setuptools import find_packages
+import re
+from os import path
+from setuptools import setup, find_packages
 
-requires = ['numpy','pandas']
+here = path.abspath(path.dirname(__file__))
+with open(path.join(here, 'ancient_dragon/__init__.py'), encoding='utf-8') as f:
+    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
+
+requires = ['numpy', 'pandas']
 
 setup(
     name="ancient_dragon",
