@@ -8,9 +8,11 @@ setup(
     author="longxl87",
     author_email="331942615@qq.com",
     description="data mining tools",
+    packages=find_packages(),
+    install_requires=requires
     # long_description=open('README.md').read(),
     # long_description_content_type='text/markdown',
-    packages=find_packages(),
+
     # install_requires=[
     #      "numpy>=1.26.4",
     #      "pandas>=2.2.2",
