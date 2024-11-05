@@ -10,7 +10,7 @@ requires = ['numpy', 'pandas']
 
 setup(
     name="ancient_dragon",
-    version="0.0.1",
+    # version="0.0.1",
     author="longxl87",
     author_email="331942615@qq.com",
     description="data mining tools",
