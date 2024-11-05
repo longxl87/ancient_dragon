@@ -1,2 +1,4 @@
 # ancient_dragon
-常用工具包
+安装方式
+pip install .
+pip install 
