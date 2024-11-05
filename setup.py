@@ -1,16 +1,16 @@
-import re
-from os import path
+# import re
+# from os import path
 from setuptools import setup, find_packages
 
-here = path.abspath(path.dirname(__file__))
-with open(path.join(here, 'ancient_dragon/__init__.py'), encoding='utf-8') as f:
-    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
+# here = path.abspath(path.dirname(__file__))
+# with open(path.join(here, 'ancient_dragon/__init__.py'), encoding='utf-8') as f:
+#     __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
 
 requires = ['numpy', 'pandas']
 
 setup(
     name="ancient_dragon",
-    # version="0.0.1",
+    version="0.0.1",
     author="longxl87",
     author_email="331942615@qq.com",
     description="data mining tools",
